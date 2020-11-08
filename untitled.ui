@@ -32,14 +32,14 @@
    <string notr="true">Inventory 0.01b</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPlainTextEdit" name="plainTextEdit">
+   <widget class="QPlainTextEdit" name="barcodeplain">
     <property name="enabled">
      <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>0</y>
+      <y>10</y>
       <width>221</width>
       <height>41</height>
      </rect>
@@ -59,12 +59,12 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="barcodelabel">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>121</width>
+      <x>10</x>
+      <y>10</y>
+      <width>111</width>
       <height>41</height>
      </rect>
     </property>
@@ -77,12 +77,12 @@
      <string>Barcode</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="weightlabel">
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>0</y>
-      <width>121</width>
+      <y>10</y>
+      <width>91</width>
       <height>41</height>
      </rect>
     </property>
@@ -95,14 +95,14 @@
      <string>Weight</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="plainTextEdit_2">
+   <widget class="QPlainTextEdit" name="weightplaintext">
     <property name="enabled">
      <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>0</y>
+      <x>460</x>
+      <y>10</y>
       <width>181</width>
       <height>41</height>
      </rect>
@@ -122,12 +122,12 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="weightunitcombo">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>0</y>
-      <width>131</width>
+      <x>650</x>
+      <y>10</y>
+      <width>121</width>
       <height>41</height>
      </rect>
     </property>
@@ -153,11 +153,11 @@
      </property>
     </item>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="expdatelabel">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>60</y>
+      <x>10</x>
+      <y>70</y>
       <width>191</width>
       <height>41</height>
      </rect>
@@ -171,177 +171,12 @@
      <string>Expiration Date</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_2">
+   <widget class="QComboBox" name="expmonthcombo">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>60</y>
-      <width>76</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>1</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>3</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>4</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>5</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>6</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>7</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>8</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>9</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>10</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>11</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>12</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>13</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>14</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>15</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>16</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>17</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>18</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>19</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>20</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>21</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>22</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>23</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>24</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>25</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>26</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>27</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>28</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>29</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>30</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>31</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QComboBox" name="comboBox_3">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>60</y>
-      <width>76</width>
+      <x>300</x>
+      <y>70</y>
+      <width>101</width>
       <height>41</height>
      </rect>
     </property>
@@ -412,11 +247,11 @@
      </property>
     </item>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="quantitylabel">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>500</y>
+      <x>10</x>
+      <y>230</y>
       <width>111</width>
       <height>41</height>
      </rect>
@@ -430,11 +265,11 @@
      <string>Quantity</string>
     </property>
    </widget>
-   <widget class="QSpinBox" name="spinBox">
+   <widget class="QSpinBox" name="quantityspinbox">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>500</y>
+      <x>130</x>
+      <y>230</y>
       <width>71</width>
       <height>41</height>
      </rect>
@@ -444,13 +279,16 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
    </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QLabel" name="prodnamelabel">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>120</y>
-      <width>191</width>
+      <x>10</x>
+      <y>130</y>
+      <width>181</width>
       <height>41</height>
      </rect>
     </property>
@@ -463,15 +301,15 @@
      <string>Product Name</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="plainTextEdit_3">
+   <widget class="QPlainTextEdit" name="prodnameplain">
     <property name="enabled">
      <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>120</y>
-      <width>601</width>
+      <y>130</y>
+      <width>581</width>
       <height>41</height>
      </rect>
     </property>
@@ -490,11 +328,11 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
+   <widget class="QCheckBox" name="isvegancheck">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>60</y>
+      <x>10</x>
+      <y>180</y>
       <width>111</width>
       <height>41</height>
      </rect>
@@ -508,12 +346,12 @@
      <string>Vegan</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_4">
+   <widget class="QComboBox" name="typecombo">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>60</y>
-      <width>281</width>
+      <x>520</x>
+      <y>70</y>
+      <width>251</width>
       <height>41</height>
      </rect>
     </property>
@@ -568,6 +406,103 @@
      </property>
     </item>
    </widget>
+   <widget class="QScrollBar" name="verticalScrollBar">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>0</y>
+      <width>16</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="additempush">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>500</y>
+      <width>151</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Add item</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearallpush">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>500</y>
+      <width>151</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="expdayspin">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>70</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>31</number>
+    </property>
+    <property name="singleStep">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="expyearspin">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>70</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="minimum">
+     <number>2020</number>
+    </property>
+    <property name="maximum">
+     <number>2050</number>
+    </property>
+    <property name="singleStep">
+     <number>1</number>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -591,10 +526,16 @@
    <property name="text">
     <string>Save</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
   </action>
   <action name="actionLoad">
    <property name="text">
     <string>Load</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
    </property>
   </action>
  </widget>
